@@ -1,6 +1,5 @@
 __author__ = 'Ashish'
 
-
 import random
 
 
@@ -16,7 +15,5 @@ def dice_roll():
     else:
         print("you've exceeded total of 21. Total is: "+str(number) )
         exit()
-
-
 
 dice_roll()
